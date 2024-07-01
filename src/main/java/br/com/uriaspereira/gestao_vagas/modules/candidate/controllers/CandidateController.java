@@ -1,8 +1,6 @@
 package br.com.uriaspereira.gestao_vagas.modules.candidate.controllers;
 
-import br.com.uriaspereira.gestao_vagas.exceptions.UserFoundException;
 import br.com.uriaspereira.gestao_vagas.modules.candidate.Candidate;
-import br.com.uriaspereira.gestao_vagas.modules.candidate.repositories.CandidateRepository;
 import br.com.uriaspereira.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
 import jakarta.validation.Valid;
 
