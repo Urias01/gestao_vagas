@@ -39,6 +39,10 @@ public class Candidate {
     @CreationTimestamp
     private LocalDateTime createdAt;
 
+    public Candidate() {
+        super();
+    }
+    
     public Candidate(
             String name,
             String username,
