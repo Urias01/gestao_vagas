@@ -11,4 +11,5 @@ import br.com.uriaspereira.gestao_vagas.modules.candidate.Candidate;
 @Repository
 public interface CandidateRepository extends JpaRepository<Candidate, UUID> {
   Optional<Candidate> findByUsernameOrEmail(String username, String email);
+  Optional<Candidate> findByUsername(String username);
 }
